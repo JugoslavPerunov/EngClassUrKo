@@ -1,0 +1,48 @@
+.wrapper {
+	position: relative;
+	width: 1024px;
+	margin: 0 auto;
+}
+.grense {
+	border: 1px solid black;
+	text-align: center;
+	position: relative;
+	width: 1024px;
+	height: 512px;
+	margin: 40px auto;
+}
+
+.padding {
+	padding-top: 140px;
+}
+
+img {
+	position: absolute;
+	right: 0px;
+	opacity: 0.1;
+}
+
+.storreBokstaver {
+	font-size: 24px;
+}
+
+/*.flex {
+	display: flex;*/
+}
+
+.nummeret {
+	/*border: 1px solid black;*/
+	flex: 1;
+	}
+
+.rotasjon {
+	transform: rotateZ(90deg);
+}
+
+.storreSiffer {
+	font-size: 1.9em;
+}
+@media print
+{
+    * {-webkit-print-color-adjust:exact;}
+}
